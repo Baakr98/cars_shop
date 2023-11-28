@@ -69,6 +69,15 @@ class ShopBillScreen extends StatelessWidget {
                           height: 20,
                         ),
                         CustomText(
+                          text: 'Price: ${bill.parts[index].price}',
+                        ),
+                        const SizedBox(
+                          height: 10,
+                        ),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        CustomText(
                           text: 'Date of Purchase: ${bill.parts[index].dateOfPurchase}',
                         ),
                         const SizedBox(
