@@ -33,6 +33,7 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
         CacheHelper.saveEmail(credential.user!.email!);
         emit(LoginNowSuccessState());
       }else{
+	await FirebaseAuth.instance.signOut();
         emit(LoginNowFailureState(message:'user not found'));
       }
     } on FirebaseAuthException catch (e) {
