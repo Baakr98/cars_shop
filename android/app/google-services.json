@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "259659337766",
+    "project_id": "test-1b7eb",
+    "storage_bucket": "test-1b7eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259659337766:android:c8a86bde2f1acf7bb2d6e7",
+        "android_client_info": {
+          "package_name": "com.example.cars_shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs09VGI4eGcvttdbB-93im1xQObVdZHLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259659337766:android:8187cf1d5aa0446bb2d6e7",
+        "android_client_info": {
+          "package_name": "com.example.cars_user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs09VGI4eGcvttdbB-93im1xQObVdZHLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259659337766:android:3656ac4d0738e9a6b2d6e7",
+        "android_client_info": {
+          "package_name": "com.example.hashtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs09VGI4eGcvttdbB-93im1xQObVdZHLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
