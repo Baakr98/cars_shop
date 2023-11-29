@@ -44,38 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCmMDtZPMBxgdbuY8Ms_GqbIkTZBj5S_o4',
-    appId: '1:259659337766:web:800e6a7d74929a57b2d6e7',
-    messagingSenderId: '259659337766',
-    projectId: 'test-1b7eb',
-    authDomain: 'test-1b7eb.firebaseapp.com',
-    storageBucket: 'test-1b7eb.appspot.com',
-    measurementId: 'G-E3QE553EXL',
+    apiKey: 'AIzaSyBA5TCRUH45cua-Ltmb0mfsZ1MAO8gynqA',
+    appId: '1:499292308319:web:ecf0249d50d50600c6acea',
+    messagingSenderId: '499292308319',
+    projectId: 'auto-keep-33d92',
+    authDomain: 'auto-keep-33d92.firebaseapp.com',
+    databaseURL: 'https://auto-keep-33d92.firebasedatabase.app',
+    storageBucket: 'auto-keep-33d92.appspot.com',
+    measurementId: 'G-JFQRNHFQ7K',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDs09VGI4eGcvttdbB-93im1xQObVdZHLY',
-    appId: '1:259659337766:android:c8a86bde2f1acf7bb2d6e7',
-    messagingSenderId: '259659337766',
-    projectId: 'test-1b7eb',
-    storageBucket: 'test-1b7eb.appspot.com',
+    apiKey: 'AIzaSyBMuZ2d8zqeUj8rV49vHbiEtB366py3bZ4',
+    appId: '1:499292308319:android:9d785e007fae8765c6acea',
+    messagingSenderId: '499292308319',
+    projectId: 'auto-keep-33d92',
+    storageBucket: 'auto-keep-33d92.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAIYE2u_MUmTNledSoQHpqumVnotnyrtvA',
-    appId: '1:259659337766:ios:71fc4004411c5275b2d6e7',
-    messagingSenderId: '259659337766',
-    projectId: 'test-1b7eb',
-    storageBucket: 'test-1b7eb.appspot.com',
-    iosBundleId: 'com.example.carsShop',
+    apiKey: 'AIzaSyAp-UZU9ZX8apfqfb3qKikUnDW2BybkIzs',
+    appId: '1:499292308319:ios:4a10cad1b511bbe4c6acea',
+    messagingSenderId: '499292308319',
+    projectId: 'auto-keep-33d92',
+    storageBucket: 'auto-keep-33d92.appspot.com',
+    iosBundleId: 'com.example.autoKeep',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAIYE2u_MUmTNledSoQHpqumVnotnyrtvA',
-    appId: '1:259659337766:ios:760f9cd0c9f9bba4b2d6e7',
-    messagingSenderId: '259659337766',
-    projectId: 'test-1b7eb',
-    storageBucket: 'test-1b7eb.appspot.com',
-    iosBundleId: 'com.example.carsShop.RunnerTests',
+    apiKey: 'AIzaSyAp-UZU9ZX8apfqfb3qKikUnDW2BybkIzs',
+    appId: '1:499292308319:ios:c3b092035d4d2ce3c6acea',
+    messagingSenderId: '499292308319',
+    projectId: 'auto-keep-33d92',
+    storageBucket: 'auto-keep-33d92.appspot.com',
+    iosBundleId: 'com.example.autoKeep.RunnerTests',
   );
 }
