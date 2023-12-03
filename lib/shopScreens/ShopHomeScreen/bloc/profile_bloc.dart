@@ -12,7 +12,7 @@ part 'profile_event.dart';
 part 'profile_state.dart';
 
 class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
-  final usersCollection=FirebaseFirestore.instance.collection('user');
+  final usersCollection=FirebaseFirestore.instance.collection('ShopUser');
   ProfileBloc() : super(ProfileInitial()) {
     on<GetUserEvent>(getUser);
     on<LogOutEvent>(logOut);

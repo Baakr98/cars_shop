@@ -126,6 +126,7 @@ class _MainReportState extends State<MainReport> {
                             listener: (context, state) {
                               if(state is UploadImageSuccessState){
                                 bloc.imagePath=state.imagePath;
+                                print(bloc.imagePath);
                               }else if  (state is UploadImageFailureState){
                                 toast(msg: state.message);
                               }
@@ -140,6 +141,7 @@ class _MainReportState extends State<MainReport> {
                                       onSubmit: (file, name) async {
                                         bloc.imageFile = file;
                                         bloc.imageName = name;
+                                        bloc.add(UploadImageEvent(imageFile: bloc.imageFile!, imageName: bloc.imageName!));
                                       });
                                 },
                                 child: CustomText(

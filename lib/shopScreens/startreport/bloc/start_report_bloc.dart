@@ -15,7 +15,7 @@ part 'start_report_event.dart';
 part 'start_report_state.dart';
 
 class StartReportBloc extends Bloc<StartReportEvent, StartReportState> {
-  final usersCollection=FirebaseFirestore.instance.collection('ShopUser');
+  final usersCollection=FirebaseFirestore.instance.collection('user');
   final reportsCollection=FirebaseFirestore.instance.collection('Bill');
   final imageIns=FirebaseStorage.instance.ref();
   List<String> user = [];
